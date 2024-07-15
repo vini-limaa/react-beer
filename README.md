@@ -22,7 +22,8 @@ To run the application in development mode, use the following command:
 yarn dev
 ```
 
-Production Setup
+## Production Setup
+
 For production deployment and real-time price updates (every 5 seconds):
 
 1- Build the application, use the following command:
