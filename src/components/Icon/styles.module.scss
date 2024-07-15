@@ -1,0 +1,27 @@
+.icon {
+  height: 100%;
+  width: auto;
+  max-width: 40px;
+  max-height: 40px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &.rounded,
+  &.rounded img {
+    border-radius: 50%;
+
+    &.image {
+      padding: 0px;
+    }
+  }
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}

@@ -1,0 +1,17 @@
+.page {
+  padding: 40px 24px;
+  background: var(--base-bg);
+  height: 100%;
+
+  .hero {
+    padding: 24px 0px 15px 0px;
+  }
+
+  .products {
+    .title {
+      font-weight: 700;
+      font-size: 18px;
+      padding-bottom: 17px;
+    }
+  }
+}

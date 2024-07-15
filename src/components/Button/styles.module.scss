@@ -1,0 +1,16 @@
+.button {
+  all: unset;
+  display: block;
+  border: #969696 1px solid;
+  color: #969696;
+  border-radius: 20px;
+  padding: 7px 15px;
+  width: auto;
+  flex-shrink: 0;
+  cursor: pointer;
+
+  &.actived {
+    border: #ff9f24 1px solid;
+    color: #ff9f24;
+  }
+}

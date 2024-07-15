@@ -1,0 +1,13 @@
+.description {
+  .text {
+    color: var(--text-base-color);
+    line-height: 24px;
+    height: 100%;
+  }
+
+  span {
+    color: #ff9f24;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
